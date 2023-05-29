@@ -4,7 +4,7 @@
         <img src="https://i.imgur.com/sxW5AWa.png" alt="Logo">
     </a>
 
-<h3 align="center">MangaBot - MiraiBot Remaster</h3>
+<h3 align="center">MiraiBypassGBan</h3>
 
 <p align="center">
     Bot Facebook Messenger đơn giản được làm bởi CatalizCS và SpermLord.
