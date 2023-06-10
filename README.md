@@ -102,7 +102,7 @@ sau đó nhập lần lượt các câu lệnh sau:
     2. tùy chỉnh dấu lệnh, tên bot, developer mode, api token...
     3. Lưu và đóng lại
 
-6. Lấy appstate: Bạn có thể sử dụng fbstate của c3c bot, nhưng cần đổi tên lại thành appstate.json
+6. Lấy appstate: Bạn có thể sử dụng fbstate của c3c bot, nhưng cần đổi tên lại thành fbstate.json
 
 7. Chạy bot và tận hưởng
     1. Nhập
@@ -128,7 +128,7 @@ sau đó nhập lần lượt các câu lệnh sau:
 3. Đợi mọi package cài đặt thành công là có thể sử dụng
 
 4. Lấy appstate
-    - Bạn có thể sử dụng fbstate của c3c bot, nhưng cần đổi tên lại thành appstate.json
+    - Bạn có thể sử dụng fbstate của c3c bot, nhưng cần đổi tên lại thành fbstate.json
 
 5. Về cách sử dụng, edit, vận hành
       1. Để bật được trình chỉnh sửa bạn chỉ cần gõ
