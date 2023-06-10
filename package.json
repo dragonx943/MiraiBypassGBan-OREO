@@ -22,7 +22,7 @@
 		"spermlord",
 		"miraipr0ject"
 	],
-	"author": "dragonx943 & Team MiraiV2",
+	"author": "Dragonx943 & Team MiraiV2",
 	"license": "GPL-3.0",
 	"bugs": {
 		"url": "https://github.com/miraipr0ject/miraiv2/issues"
@@ -39,7 +39,6 @@
 		"cheerio": "^1.0.0-rc.12",
 		"child_process": "",
 		"crypto": "",
-		"discord-image-generation": "^1.4.13",
 		"eval": "",
 		"express": "^4.18.2",
 		"extract-zip": "",
@@ -49,7 +48,6 @@
 		"got": "^11.8.3",
 		"jimp": "",
 		"js-base64": "^3.7.2",
-		"lyrics-finder": "^21.7.0",
 		"minimist": "",
 		"moment-timezone": "",
 		"morsify": "^2.4.0",
