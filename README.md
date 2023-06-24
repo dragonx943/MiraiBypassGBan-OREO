@@ -83,20 +83,6 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
     npm i
     ```
 
-sau đó nhập lần lượt các câu lệnh sau:
-```sh
-    npm i node-pre-gyp
-```
-```sh
-    npm i nodejs-base64
-```
-```sh
-    npm i bluebird
-```
-```sh
-    npm i sqlite3@5.0.6
-```
-
 5. Chỉnh sửa file config
     1. Mở file config.json thông qua notepad++ hoặc sublime text 3 đã cài đặt ở trên
     2. tùy chỉnh dấu lệnh, tên bot, developer mode, api token...
