@@ -1,1 +1,1 @@
-npm i && npm i node-pre-gyp && npm i nodejs-base64 && npm i bluebird && npm i sqlite3@5.0.6
+npm install

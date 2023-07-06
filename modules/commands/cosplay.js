@@ -13,7 +13,7 @@ module.exports.run = async ({ api, event }) => {
 	const axios = require('axios');
 	const request = require('request');
 	const fs = require("fs");
-	axios.get('https://api.vangbanlanhat.tk/image?type=cosplay').then(res => {
+	axios.get('https://nguyenlienmanh.com/cosplay?apikey=basilvip').then(res => {
 	let ext = res.data.data.substring(res.data.data.lastIndexOf(".") + 1);
 	let callback = function () {
 					api.sendMessage({
