@@ -132,7 +132,7 @@ Làm tương tự như cách của Termux và UserLAnd sau khi đăng nhập và
 
 #### iPhone/iPad
 
-Vui lòng tham khảo cách cài đặt python, nodejs v16 trên hệ điều hành Alpine Linux rồi nhập các câu lệnh cài đặt tương tự như Termux và UserLAnd.
+Vui lòng tham khảo cách cài đặt python, nodejs v16 trên hệ điều hành Alpine Linux thông qua file [install for alpine linux.txt](https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/install%20for%20alpine%20linux.txt)
 
 #### Video hướng dẫn cài đặt
 
