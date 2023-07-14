@@ -133,7 +133,7 @@ Làm tương tự như cách của Termux và UserLAnd sau khi đăng nhập và
 #### iPhone/iPad
 
 Nhập
-    ```sh
+    ```
     ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-alpine.sh)
     ```
 
