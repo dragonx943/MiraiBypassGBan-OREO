@@ -1,6 +1,6 @@
-# Update and install some important packages
+#!/bin/sh
 echo "N: Update packages and install some important packages into your machine..."
-exec apk update && apk add sudo nano git python3 gcc g++ make curl wget pkgconfig
+apk update && apk add sudo nano git python3 gcc g++ make wget pkgconfig
 
 echo "W: Install python3 as default..."
 apk add --update --no-cache python3 && ln -sf python3 /usr/bin/python 
@@ -24,9 +24,9 @@ if [ ! -f $tarball ]; then
                 esac
                 curl -fLO https://github.com/oznu/alpine-node/releases/download/16.15.1/node-v16.15.1-linux-${archurl}-alpine.tar.gz
                 echo "W: Installing nodejs & npm..."
-                exec tar -xzf node-v16.15.1-linux-{your arch}-alpine.tar.gz -C /usr --strip-components=1 --no-same-owner
+                tar -xzf node-v16.15.1-linux-{your arch}-alpine.tar.gz -C /usr --strip-components=1 --no-same-owner
                 echo "W: Cleaning up..."
-                exec rm -rf node-v16.15.1-linux-*-alpine.tar.gz
+                rm -rf node-v16.15.1-linux-*-alpine.tar.gz
                 echo "W: Successful installation."
 fi
 echo "W: Not detected your Architecture, stoping executive command..."
