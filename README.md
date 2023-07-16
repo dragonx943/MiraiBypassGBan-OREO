@@ -134,7 +134,7 @@ Làm tương tự như cách của Termux và UserLAnd sau khi đăng nhập và
 
 Nhập
     ```
-    ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-alpine.sh)
+    apk update && apk add curl && ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-alpine.sh)
     ```
 
 #### Video hướng dẫn cài đặt
