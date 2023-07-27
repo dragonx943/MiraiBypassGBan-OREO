@@ -10,6 +10,7 @@ clear
 ## Replace Termux's repo files
 termux-setup-storage
 echo "Tiến trình: Đang thay thế các tệp hệ thống của Termux..."
+rm -rf /data/data/com.termux/files/usr/etc/apt/sources.list.d
 rm -rf /data/data/com.termux/files/usr/etc/apt/sources.list
 echo "deb https://packages.termux.dev/apt/termux-main/ stable main" >> /data/data/com.termux/files/usr/etc/apt/sources.list
 clear
