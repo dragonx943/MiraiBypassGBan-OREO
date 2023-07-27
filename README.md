@@ -99,43 +99,54 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
 
 #### Android
 
-1. Tải Termux hoặc UserLAnd
-	- Nếu dùng UserLAnd thì tại giao diện chính của app, vui lòng chọn tải cài đặt hệ điều hành Ubuntu hoặc Debian rồi làm theo chỉ dẫn của app.
+1. Nếu dùng UserLAnd:
+	Tại giao diện chính của app, vui lòng chọn tải cài đặt hệ điều hành Ubuntu hoặc Debian và chờ đợi cho đến khi vào được giao diện giống với Termux. Sau đó nhập câu lệnh dành cho Linux vào Terminal của UserLAnd.
 
-2. Nếu dùng Termux (bản trên F-Droid), vui lòng nhập dòng lệnh sau để cài Ubuntu:
+2. Nếu dùng Termux, vui lòng nhập dòng lệnh sau (Tự động cài đặt các gói cần thiết):
     ```sh
-    apt update && apt upgrade -y && apt install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu
-    ```    
-   **Nếu dùng Termux bản trên Google Play, vui lòng xóa hết mọi repo trong tệp data/data/com.termux/.../etc/sources.list và thay thế bằng* ```deb https://packages.termux.dev/apt/termux-main/ stable main``` *trước khi tiến hành cài đặt hệ điều hành Ubuntu.*
+    bash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-termux.sh)
+    ```
+3. Đợi mọi package cài đặt thành công là có thể tiếp tục
 
-   Sau khi hiện dòng *root@localhost:~#* thì hãy nhập câu lệnh sau (cũng áp dụng cho người dùng app UserLAnd sau khi đăng nhập thành công vào hệ điều hành Ubuntu hoặc Debian):
-    ```bash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/full-install.sh)```
-
-3. Đợi mọi package cài đặt thành công là có thể sử dụng
-
-4. Lấy appstate
+4. Clone bot & Lấy appstate
+    ```sh
+    git clone https://github.com/dragonx943/MiraiBypassGBan
+    ```
     - Bạn có thể sử dụng fbstate của c3c bot, nhưng cần đổi tên lại thành fbstate.json
 
 5. Về cách sử dụng, edit, vận hành
-      1. Để bật được trình chỉnh sửa bạn chỉ cần gõ
+      1. Để chỉnh sửa file appstate của bot, vui lòng nhập:
       ```sh
-      nano + tên file bạn muốn thêm, sửa
+      nano fbstate.json
       ```
-      2. Để vận hành bot, bạn chỉ cần nhập
+      2. Để chỉnh sửa file config của bot, vui lòng nhập:
       ```sh
-      cd ~/MiraiBypassGBan && npm start
+      nano config.json
+      ```
+      3. Để vận hành bot, bạn chỉ cần nhập
+      ```sh
+      npm start
       ```
 
-#### Linux/ubuntu
+#### Linux (Debian & Ubuntu):
 
-Làm tương tự như cách của Termux và UserLAnd sau khi đăng nhập vào hệ điều hành thành công.
+1. Đăng nhập vào hệ điều hành với quyền quản trị viên (Root) và gõ câu lệnh sau (Tự động cài đặt các gói cần thiết):
+      ```sh
+      bash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-linux.sh)
+      ```
+2. Chờ cho đến khi cài đặt hoàn tất, thực hiện bước 4 và 5 của mục dành cho Android
+
+**LƯU Ý ĐẶC BIỆT**: Tuyệt đối không dùng lệnh này cho Termux, vì rất có thể sẽ xảy ra lỗi ngoài ý muốn do không đủ các gói cần thiết. Chú ý đường truyền kết nối mạng, đặc biệt là **BẮT BUỘC** phải đăng nhập dưới quyền của người dùng quản trị viên (**Root**)
 
 #### iPhone/iPad
 
-Nhập
-    ```
-    apk update && apk add curl && ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-alpine.sh)
-    ```
+1. Nhập câu lệnh sau vào app iSH Shell (Tự động cài đặt các gói cần thiết):
+      ```sh
+      apk update && apk add curl && ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-alpine.sh)
+      ```
+2. Chờ cho đến khi cài đặt xong thì thực hiện giống bước 4 và 5 của mục dành cho Android
+
+**Lưu ý**: Trong quá trình thực thi câu lệnh và cài đặt, nếu Terminal của bạn không phản hồi hoặc không đưa kết quả ra màn hình, vui lòng kiểm tra lại đường truyền kết nối mạng và thử cài đặt lại !!!
 
 #### Video hướng dẫn cài đặt
 
