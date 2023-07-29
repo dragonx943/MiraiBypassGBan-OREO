@@ -1,7 +1,7 @@
 #!/bin/sh
 clear
 echo "Bắt đầu tiến hành cập nhật & cài đặt những gói dữ liệu cơ bản..."
-apk update && apk add sudo nano git gcc g++ make wget pkgconfig
+apk update && apk add nano git gcc g++ make pkgconfig
 clear
 
 echo "Bắt đầu cài đặt python3 và đặt làm mặc định..."
