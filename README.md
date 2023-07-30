@@ -142,7 +142,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
 
 1. Nhập câu lệnh sau vào app iSH Shell (Tự động cài đặt các gói cần thiết):
       ```sh
-      apk update && apk add curl && ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-alpine.sh)
+      ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-alpine.sh)
       ```
 2. Chờ cho đến khi cài đặt xong thì thực hiện giống bước 4 và 5 của mục dành cho Android
 
