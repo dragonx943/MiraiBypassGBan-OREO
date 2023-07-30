@@ -130,4 +130,6 @@ dist
 .pnp.*
 
 # setup files
-*.sh
+autoinstall-linux.sh
+autoinstall-alpine.sh
+autoinstall-termux.sh
