@@ -146,7 +146,9 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
       ```
 2. Chờ cho đến khi cài đặt xong thì thực hiện giống bước 4 và 5 của mục dành cho Android
 
-**Lưu ý**: Trong quá trình thực thi câu lệnh và cài đặt, nếu Terminal của bạn không phản hồi hoặc không đưa kết quả ra màn hình, vui lòng kiểm tra lại đường truyền kết nối mạng và thử cài đặt lại !!!
+**Lưu ý**:
+- iSH Shell hoặc Alpine Linux cần có curl. Nếu Terminal báo lỗi "-ash: curl: not found", vui lòng cài đặt curl bằng "apk add curl".
+- Trong quá trình thực thi câu lệnh và cài đặt, nếu Terminal của bạn không phản hồi hoặc không đưa kết quả ra màn hình, vui lòng kiểm tra lại đường truyền kết nối mạng và thử cài đặt lại !!!
 
 #### Video hướng dẫn cài đặt
 
