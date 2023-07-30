@@ -50,7 +50,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
 
 ### Yêu cầu
 
-- Dung lượng của máy phải trống tầm 512mb-1gb (tùy vào mục đích sử dụng và modules).
+- Dung lượng của máy phải trống tầm 1-2 GB (tùy vào mục đích sử dụng và modules).
 - Cần một số phần mềm chỉnh sửa file, khuyến khích sử dụng [notepad++](https://notepad-plus-plus.org/downloads/) hoặc [sublime text 3](https://www.sublimetext.com/3)
 - Cần hiểu biết sơ lược qua về nodejs, javascript.
 - Một tài khoản Facebook dùng để làm bot (Khuyến khích nên sử dụng acc đã bỏ hoặc không còn sử dụng để tránh mất acc hay acc bị khoá checkpoint).
