@@ -9,33 +9,35 @@ clear
 
 ## Replace Termux's repo files
 termux-setup-storage
+sleep 10
 echo "Tiến trình: Đang thay thế các tệp hệ thống của Termux..."
 rm -rf /data/data/com.termux/files/usr/etc/apt/sources.list.d
 rm -rf /data/data/com.termux/files/usr/etc/apt/sources.list
 echo "deb https://packages.termux.dev/apt/termux-main/ stable main" >> /data/data/com.termux/files/usr/etc/apt/sources.list
-clear
 
 ## Start install linux distro for Termux
 echo "Tiến trình: Bắt đầu quá trình cập nhật gói sau khi thay đổi dữ liệu..."
-apt update
+apt update && apt upgrade -y
 clear
 echo "Tiến trình: Bắt đầu quá trình cài đặt hệ điều hành Ubuntu..."
 apt install proot-distro -y
-clear
 proot-distro install ubuntu
-clear
+sleep 5
 
 ## Create file run Ubuntu on Termux
+clear
 echo "Tiến trình: Đang khởi tạo lối tắt truy cập hệ điều hành Ubuntu..."
 echo "proot-distro login ubuntu" >> /data/data/com.termux/files/usr/bin/ubuntu
 chmod a+x /data/data/com.termux/files/usr/bin/ubuntu
-clear
+sleep 5
 
 ## Start setup important packages for Ubuntu
+clear
 echo "Tiến trình: Bắt đầu cài đặt các gói cần thiết cho Ubuntu. Ubuntu sẽ được khởi động sau 10s..."
 sleep 10
-proot-distro login ubuntu -- bash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-linux.sh)
+proot-distro login ubuntu -- bash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan-OREO/main/autoinstall-linux.sh)
+sleep 10
 clear
 
 ## Some crazy notepad
-echo "Đã cài đặt thành công. Nhập "ubuntu" để đăng nhập và sử dụng hệ điều hành Ubuntu với quyền Root!"
+echo "Đã thực thi cài đặt xong. Nhập "ubuntu" để đăng nhập và sử dụng hệ điều hành Ubuntu với quyền Root!"
