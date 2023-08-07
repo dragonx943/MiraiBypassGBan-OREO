@@ -73,7 +73,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
     1. chuột phải ở folder cần cài đặt source code nhấn vào git bash
     2. nhập
     ```sh
-    git clone https://github.com/dragonx943/MiraiBypassGBan.git
+    git clone https://github.com/dragonx943/MiraiBypassGBan-OREO.git
     ``` 
 
 4. Cài đặt các package cần thiết
@@ -104,13 +104,13 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
 
 2. Nếu dùng Termux, vui lòng nhập dòng lệnh sau (Tự động cài đặt các gói cần thiết):
     ```sh
-    bash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-termux.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan-OREO/main/autoinstall-termux.sh)
     ```
 3. Đợi mọi package cài đặt thành công là có thể tiếp tục
 
 4. Clone bot & Lấy appstate
     ```sh
-    git clone https://github.com/dragonx943/MiraiBypassGBan
+    git clone https://github.com/dragonx943/MiraiBypassGBan-OREO
     ```
     - Bạn có thể sử dụng fbstate của c3c bot, nhưng cần đổi tên lại thành fbstate.json
 
@@ -132,7 +132,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
 
 1. Đăng nhập vào hệ điều hành với quyền quản trị viên (Root) và gõ câu lệnh sau (Tự động cài đặt các gói cần thiết):
       ```sh
-      bash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-linux.sh)
+      bash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan-OREO/main/autoinstall-linux.sh)
       ```
 2. Chờ cho đến khi cài đặt hoàn tất, thực hiện bước 4 và 5 của mục dành cho Android
 
@@ -142,7 +142,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
 
 1. Nhập câu lệnh sau vào app iSH Shell (Tự động cài đặt các gói cần thiết):
       ```sh
-      ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan/main/autoinstall-alpine.sh)
+      ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/MiraiBypassGBan-OREO/main/autoinstall-alpine.sh)
       ```
 2. Chờ cho đến khi cài đặt xong thì thực hiện giống bước 4 và 5 của mục dành cho Android
 
