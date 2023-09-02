@@ -1,7 +1,7 @@
 #!/bin/sh
 clear
 echo "Bắt đầu tiến hành cập nhật & cài đặt những gói dữ liệu cơ bản..."
-apk update && apk add nano git bash
+apk update && apk add nano git bash curl binutils-gold gnupg linux-headers
 echo "Nếu đến đây bạn thấy lỗi, hãy ngay lập tức dừng cài đặt và đăng tải vấn đề lên mục Issues của dự án này!"
 sleep 10
 clear
